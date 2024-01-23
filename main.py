@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import pickle5 as pickle
 
 # Load the trained model
 countVector  =pickle.load(open("count_vectorizer.pkl","rb"))
